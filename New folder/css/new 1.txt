@@ -1,0 +1,58 @@
+.logo{
+	float:left;
+	display:block;
+}
+
+.menuWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.menu {
+    width: 600px;
+    float:right;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.mainmenu li a {
+    text-decoration: none;
+    float: left;
+    padding: 30px 15px;
+	color:black;
+	font-family:Oswald;
+}
+.mainmenu li{
+	float:right;
+	display:block
+}
+
+
+
+
+
+.sboxWrapper .singlebox:nth-child(2) {
+    margin: 0px 15px;
+}
+
+.sboxWrapper .singlebox:nth-child(3) {
+    margin: 0px 15px;
+}
+
+.sboxWrapper .singlebox:nth-child(4)
+ {margin-left: 10px;}
+
+.sboxWrapper .singlebox:nth-child(1) {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+

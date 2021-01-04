@@ -1,0 +1,136 @@
+@media(max-width:768px){
+    .slidecontant h2 {
+        width: 100%;
+    }
+    *{
+        margin:0;
+        padding:0
+    }
+    .teamdetails {
+        width: 100%;
+        margin-left: 0;
+    }
+    section.slidersec {
+        background: url(../image/slide.jpg);
+        background-size: cover;
+    }
+    .blogtitle p {
+        width: 100%;
+    }
+    .teamimage {
+        width: 100%;
+    }
+    .slideWrapper {
+        width: 100%;
+    }
+    ul.teamdesclinkleft {
+        width: 46%;
+    }
+    
+    .teamdetails p {
+        width: 100%;
+    }
+    .topbarWrapper {
+        width: 100%;
+    }
+    .blogbox {
+        width: 100%;
+    }
+    .pricebox {
+        width: 100%;
+    }
+    .sicons {
+        width: 100%;
+    }
+    
+    .singleicons:first-child {
+        border-top: 3px solid orange;
+    }
+    
+    .singleicons {
+        border-bottom: 3px solid orange;
+        padding: 15px 0px;
+    }
+    .container {
+        width: 100%;
+    }
+    .brigatelogo {
+        width: 100%;
+    }
+    
+    .singlebox {
+        width: 23%;
+        margin-right: 9px;
+    }
+    
+    .teamimage img {
+        max-width: 100%;
+    }
+    
+    .singleicons {
+        width: 100%;
+    }
+  
+     .teamimage img {
+     max-width: 100%;
+    }
+
+.single-blog-news {
+    width: 100%;
+}
+
+.teamphoto {
+    width: 100%;
+}
+
+.singleproject {
+    width: 100%;
+}
+
+.socialicons {
+    width: 100%;
+}
+    .singleicons {
+         width: 100%;
+    }
+        .fbox {
+            width: 100%;
+        }
+    .sicons i {
+    width: 100%;
+    }
+    
+    
+    .sicons i {
+        width: 100%;
+    }
+    .sboxlogo {
+        font-size: 25px;
+        padding: 17px;
+        margin-bottom: 0px;
+    }
+
+    
+    .singlebox h2 {
+        font-size: 14px;
+        margin-bottom: 11px;
+        margin-top: 0;
+        padding: 0px 10px;
+    }
+    
+    .singlebox p {
+        font-size: 13px;
+        overflow: hidden;
+        width: 100%;
+        line-height: 20px;
+        margin: 0px 0px;
+    }
+    .sboxlink {
+        font-size: 12px;
+        padding: 12px 0px;
+    }
+    
+    section.searchbox {
+        width: 100%;
+    }
+}

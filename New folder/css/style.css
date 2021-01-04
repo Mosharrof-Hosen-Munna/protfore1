@@ -1,0 +1,1028 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight:500
+}
+section{
+	padding:80px 0px
+}
+*{margin:0px;padding:0px;}
+.container{
+	width:1140px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:auto
+	
+}
+
+.topbar{
+	background:#f5f5f5
+}
+.topbarWrapper{
+	overflow:hidden
+}
+.phone {
+    width: 235px;
+    float: left;
+    font-weight: 500;
+    border-left: 1px solid #ddd;
+    padding: 15px 0px;
+    border-right: 1px solid #ddd;
+}
+
+.email {
+    width: 759px;
+    float: left;
+    padding: 15px 0px;
+    font-weight: 500;
+}
+
+
+.phone i {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ff5200;
+}
+.email i {
+    padding: 0px 15px;
+    color: #ff5200;
+}
+.social {
+    width: 143px;
+    float: left;
+}
+
+.social a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: black;
+	transition:.3s
+}
+
+.social a:first-child {
+    border-left: 1px solid #ddd;
+}
+.social a:hover{
+	color:#ff5200
+}
+.brigatelogo {
+    float: left;
+    width: 150px;
+    margin: 20px 0px;
+}
+
+.menuitems {float: right;}
+
+.menuitems ul li {
+    list-style: none;
+    float: left;
+    font-family: oswald;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 35px 22px;
+    letter-spacing: 1px;
+}
+.menuitems ul li:hover{
+	color:#ff5200;
+	cursor:pointer
+}
+.slidersec{
+	background:url(../image/slide.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h2 {}
+.slidersec{
+	padding:0px 0px
+}
+.slidecontant h2 {
+    font-size: 47px;
+    width: 500px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.slideWrapper {
+    overflow: hidden;
+}
+
+.slidecontant p {
+    color: white;
+    width: 517px;
+    line-height: 25px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.slidecontant {
+    margin-top: 131px;
+}
+
+.workusbtn {
+    margin-top: 40px;
+    background: #ff5200;
+    width: 150px;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    transition:.3s;
+    cursor:pointer;
+}
+.slidernav span {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: auto;
+    border: 3px solid #ddd;
+    display: block;
+    float: left;
+    margin: 5px 5px;
+    background: transparent;
+	cursor:pointer
+}
+
+.slidernav {
+    width: 52px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.slidernav span:last-child {
+    border-color: #ff5200;
+    background: #ff5200;
+}
+.workusbtn:hover{
+	background:#333;
+	color:white
+}
+section.searchbox {
+    background: #F5F6F6;
+}
+
+.sboxwrapper {
+    overflow: hidden;
+}
+.singlebox:hover{
+	background:#ff5200
+}
+.singlebox:hover i{
+	color:white
+}
+.singlebox:hover h2{
+	color:white
+}
+.singlebox:hover a{
+	color:white
+}
+.singlebox:hover p{
+	color:white
+}
+.singlebox.active{
+	background:#ff5200;
+}
+.singlebox.active h2{
+	color:white
+}
+
+.singlebox.active a{
+	color:white
+}
+
+.singlebox.active i{
+	color:white
+}
+.singlebox.active p{
+	color:white
+}
+
+
+
+.singlebox {
+    width: 259px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.singlebox h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #3a3a3a;
+    font-size: 23px;
+    margin: 20px 0px;
+}
+
+.singlebox p {
+    text-align: center;
+    width: 240px;
+    margin: auto;
+    line-height: 23px;
+    color: #3a3a3a;
+}
+.singlebox:last-child{
+	margin-right:0px
+}
+.sboxlogo i {
+    color: #ff5200;
+}
+
+.sboxlogo {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.sboxlink {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.sboxlink a {
+    text-decoration: none;
+    color: #ff5200;
+    font-weight: 500;
+}
+.worksteamwrapper {
+    overflow: hidden;
+}
+
+.teamimage {
+    width: 545px;
+    float: left;
+    margin-right: 25px;
+}
+
+
+.teamimage img {
+    max-width: 100%;
+}
+
+.teamdetails h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.teamdetails {
+    width: 545px;
+    float: left;
+    margin-left: 25px;
+	
+}
+
+.teamdetails p {
+    width: 515px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.teamdesclink li {
+    list-style: none;
+}
+
+ul.teamdesclinkleft {
+    float: left;
+    line-height: 40px;
+    width: 270px;
+	
+}
+
+ul.teamdesclinkright {
+    line-height: 40px;
+}
+
+.teamdesclink {font-weight: 500;}
+.teamworkbtn {
+    background: #ff5200;
+    width: 130px;
+    color: white;
+    text-align: center;
+    padding: 11px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: .6px;
+    transition:.3s;
+    cursor:pointer;
+}
+.teamworkbtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.teamworkbtn:hover {
+    background: #333;
+}
+.teamdesclink li a:hover {
+    color: #ff5200;
+    cursor: pointer;
+}
+.teamdesclink li a {
+    color: black;
+    text-decoration: none;
+	transition:.5s
+}
+.teamdesclink ul a i {padding-right: 15px;}
+.whychooseus{
+	background:linear-gradient(#2b272796,#2b272796),url(../image/why-choose-us1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.singleicons {
+    width: 285px;
+    float: left;
+}
+
+.sicons i{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    width: 285px;
+    margin-bottom: 20px;
+}
+
+.sicons h2 {
+    text-align: center;
+    font-size: 46px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.sicons h4 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.sicons {
+    float: left;
+}
+
+.whychooseuswrapper {
+    overflow: hidden;
+}
+
+.workusbtn a {
+    text-decoration: none;
+    color: white;
+    font-family: oswald;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+section#blogpost {
+    background: #f5f6f6;
+}
+.blogtitle h2 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.blogtitle p {
+    text-align: center;
+    width: 526px;
+    margin: auto;
+    line-height: 25px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.blogbox {
+    width: 262px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 30px;
+}
+
+.blogbox p {
+    line-height: 25px;
+    color: #666;
+}
+
+.blogimg img {
+    width: 100%;
+}
+
+.blogpostwrapper {
+    overflow: hidden;
+}
+
+.blogbox h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.blogbox:last-child{
+	margin-right:0px
+}
+.pricebox {
+    width: 297px;
+    float: left;
+    border: 1px solid #ededed;
+    padding: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.pricetitle h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.pricetitle h1 {
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.pricetitle span {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.pboxcontent li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.pboxcontent button {
+    border: none;
+}
+
+button.pricebuttonbox {
+    border: none;
+    color: white;
+    background: #ff5200;
+    padding: 13px 35px;
+    font-family: oswald;
+    letter-spacing: .5px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .4s;
+}
+.pboxcontent ul li i {
+    margin-right: 10px;
+    color: #ff5200;
+}
+
+.pricepwrapper {
+    overflow: hidden;
+}
+button.pricebuttonbox a {
+    text-decoration: none;
+    color: white;
+}
+
+button.pricebuttonbox:hover {background: #333;}
+.pricebox:last-child {
+    margin-right: 0px;
+}
+.imagecontant{
+	background:url(../image/s02.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	float: left;
+	overflow: hidden;
+	width: 50%;
+	height: 474px;
+	margin: auto;
+}
+
+.idiachekwrapper {}
+
+.idiachekwrapper {
+    overflow: hidden;
+}
+.rightidiacontant {
+    background: #222222;
+    color: white;
+    width: 50%;
+    float: right;
+}
+
+.idiaheader h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.idiaheader {
+    padding: 70px;
+    padding-bottom: 0px;
+}
+
+h1 {}
+
+.idiaheader p {
+    line-height: 30px;
+}
+.ideaicon {
+    width: 73px;
+    float: left;
+}
+
+.rsingleicon {
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.ideaicon i {
+    font-size: 56px;
+    color: #ff5200;
+}
+
+.iconcontant h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.idealisticon {
+    padding-left: 70px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.rsingleicon:last-child {
+    padding-bottom: 0px;
+}
+
+.rsingleicon {}
+section#idiacheck {
+    padding: 0px 0px;
+    height: 474px;
+}
+
+
+.teamphoto {
+    width: 262px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+
+.teamsinglephoto img {
+    width: 100%;
+}
+
+.teamsinglephoto {
+    overflow: hidden;
+    position: relative;
+}
+
+.teamphoto:last-child {
+    margin-right: 0px;
+}
+
+.teamsinglecontant {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
+
+.teamsinglecontant h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.teamsinglecontant p {
+    font-size: 14px;
+}
+
+.meetourteambtn button {
+    border: none;
+    background: #222222;
+    padding: 12px 30px;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: .3s;
+	cursor:pointer
+}
+
+.meetourteambtn button a {
+    text-decoration: none;
+    color: white;
+    font-family: oswald;
+    letter-spacing: 1px;
+}
+
+.meetourteambtn {
+    margin: auto;
+    width: 179px;
+    padding-top: 50px;
+    display: grid;
+}
+.meetourteambtn button:hover {
+    background: #fb5200;
+    cursor: pointer;
+}
+.socialicons {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+	transition:all 0.3s ease 0s;
+    padding-left: 25%;
+	
+}
+
+.socialicons a {
+    color: #e1e1e1;
+    width: 20px;
+    height: 20px;
+    background: blue;
+    padding: 5px;
+    border-radius: 100%;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: .3s;
+}
+.socialicons a:first-child{
+	background:#3B5998;
+	transition:.8s;
+	opacity:0
+}
+.socialicons a:nth-child(2){
+	background:#00ACEE;	
+	transition:.6s;
+	opacity:0
+}
+.socialicons a:nth-child(3){
+	background:#DD4B39;
+	transition:.4s;
+	opacity:0
+}
+.socialicons a:last-child{
+	background:#0E76A8;
+	transition:.2s;
+	opacity:0
+	
+}
+.socialicons a:hover {
+    background: white;
+    color: black;
+}
+.teamphoto:hover .socialicons a:first-child{
+	
+
+	transform:translateY(20px);
+	opacity:1;
+}
+.teamphoto:hover .socialicons a:nth-child(2){
+	
+
+	transform:translateY(20px);
+	opacity:1;
+}
+.teamphoto:hover .socialicons a:nth-child(3){
+	
+
+	transform:translateY(20px);
+	opacity:1;
+}
+.teamphoto:hover .socialicons a:last-child{
+	
+
+	transform:translateY(20px);
+	opacity:1;
+}
+
+section#ourbestoprojects {
+    background: #f5f6f6;
+}
+
+
+.projectswrapper {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.singleproject {
+    width: 350px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.projectimage img {
+    width: 100%;
+}
+.singleproject img {
+    width: 100%;
+}
+
+.projectinfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    padding: 40px 27px;
+    background-image: linear-gradient(to top, #000, transparent);
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0px;
+    transition: .3s;
+}
+
+a#learnmoreBtn {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+  transform: translateX(-130px);
+
+}
+
+a#learnmoreBtn i {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.projectmeta h3 {
+    width: 250px;
+}
+
+.projectmeta p {
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+.singleproject:hover .projectinfo {
+    padding-bottom: 40px;
+}
+.singleproject:hover a#learnmoreBtn{
+	  transition:.2s;
+  transition-delay:.2s;
+  
+	transform: translateX(0px)
+	
+}
+
+
+
+
+.single-blog-news-image img {
+    width: 100%;
+    transition: .4s;
+    overflow: hidden;
+}
+
+.single-blog-news {
+    width: 347px;
+    float: left;
+    margin: 0px 15px;
+    border: 1px solid #ddd;
+}
+.singlenewscategory a {
+    text-decoration: none;
+    color: #666;
+}
+.newsmeta {
+    padding: 20px;
+}
+
+.singlenewscategory {
+    margin-bottom: 20px;
+}
+
+.singlenewstitle h2 {
+    font-size: 20px;
+    letter-spacing: .7px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.singlenewstitle p {
+    line-height: 22px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+a#newsmorebtn {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fb5200;
+    font-weight: 600;
+}
+
+a#newsmorebtn i {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.newswrapper {
+    overflow: hidden;
+}
+.single-blog-news:hover img {
+    transform: scale(1.05);
+}
+
+.single-blog-news-image {
+    overflow: hidden;
+}
+
+footer#footer {
+    background: #1a1a1a;
+    padding-top: 150px;
+}
+
+.footerwrapper {
+    overflow: hidden;
+}
+
+.copyrighttext {
+    width: 50%;
+    color: #999;
+    float: left;
+    padding: 30px 0px;
+    font-size: 15px;
+}
+
+.cicons {
+    overflow: hidden;
+}
+
+.copyrightcontainer {
+    overflow: hidden;
+    border-top: 1px solid #333;
+}
+
+.cicons ul {
+    list-style: none;
+    color: #999;
+    float: right;
+}
+
+.cicons ul li {
+    float: left;
+    padding: 30px 10px;
+}
+
+.cicons ul li a {
+    text-decoration: none;
+    color: #999;
+    font-size: 15px;
+}
+.fbox {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.fbox h3 {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 25px;
+}
+
+.fbox p {
+    line-height: 25px;
+    color: #ababab;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.fboxicons a i {
+    color: #ababab;
+    margin-right: 15px;
+    transition: .3s;
+}
+.fboxicons a i:hover {
+    color: #fb5200;
+}
+.contackicons i {
+    float: left;
+    margin-bottom: 12px;
+    display: grid;
+    place-items: center;
+    padding-top: 5px;
+    color: #ff5200;
+}
+.contacktitle {
+    width: 220px;
+    float: right;
+}
+.contackicons {
+    overflow: hidden;
+}
+p#contacktitle {
+    margin-bottom: 10px;
+}
+.footerwrapper {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+ul#usefulllinks li {
+    list-style: none;
+    border-bottom: 1px dashed #333;
+}
+ul#usefulllinks li a {
+    text-decoration: none;
+    color: #ababab;
+    font-size: 15px;
+    transition: .3s;
+}
+ul#usefulllinks li i {
+    font-size: 14px;
+}
+ul#usefulllinks li a:hover {
+    color: #ff5200;
+}
+ul#usefulllinks li:last-child {
+    border: none;
+}
+ul#usefulllinks li {
+    padding: 9px 0px;
+}
+.rpostdate {
+    color: #ffffff;
+    width: 47px;
+    background: #515151;
+    padding: 9px 4px;
+    text-align: center;
+    border-radius: 4px;
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+
+.rpostcontant {
+    width: 250px;
+}
+
+.recenttitle1 {
+    margin-bottom: 30px;
+}
+
+
+
+span#span {
+    float: left;
+    margin-top: 11px;
+    color: #9999;
+}
+
+
+
+.rpostcontant a {text-decoration: none;width: 245px;display: block;font-size: 15px;color: #999;font-family: oswald;}
+.recenttitle2 {
+    float: left;
+    margin-top: 30px;
+}
+
+
+.contacknumber {
+    width: 120px;
+}
+.blogtitle h2:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    width: 60px;
+    height: 3px;
+    background-color: #fb5200;
+    left: 50%;
+    margin-left: -30px;
+}
+
+
+
+
+

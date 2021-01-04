@@ -1,0 +1,142 @@
+
+*{
+	margin:0px;
+	padding:0px
+}
+
+body {
+    background: #0089be;
+}
+
+.signupfrom {
+    width: 384px;
+    background: #EAEBED;
+    border-radius: 3px;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 218px;
+}
+
+.signuptitle {
+    text-align: center;
+    font-size: 18px;
+    color: #574e4e;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+.supbox input {
+    border: none;
+    padding: 20px 0px;
+    outline: none;
+    margin: auto;
+    margin-top: 15px;
+    background: #dddddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.supbox {
+    margin: auto;
+    width: 337px;
+    overflow: hidden;
+}
+
+.supbox input placeholder {
+    color: white;
+}
+
+.Country select {
+    padding: 7px;
+    border: none;
+    background: #f1f1f1;
+    width: 190px;
+    border-radius: 5px;
+    margin-top: 10px;
+	outline:none;
+}
+.fistname {
+    float: left;
+    width: 153px;
+}
+
+.lastname {
+    float: left;
+    margin-left: 21px;
+    width: 153px;
+}
+
+.lastname input {
+    padding-left: 10px;
+}
+
+.fistname input {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.email input {
+    padding-left: 10px;
+    width: 97%;
+    font-size: 20px;
+}
+
+.password input {
+    width: 96%;
+    padding-left: 10px;
+}
+
+.phonenumber input {
+    width: 96%;
+    padding-left: 10px;
+}
+.gender input {width: 24px;}
+
+.gender {
+    font-size: 19px;
+}
+
+.signupbtn button {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    background: #12a0d7;
+    font-family: bold;
+    color: white;
+    margin-top:15px;
+}
+
+span.logintext {
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    color: #575757;
+    font-size: 20px;
+}
+
+span.logintext a {
+    text-decoration: none;
+    color: #575757;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.signupbtn button:hover {
+    background: #000000;
+}
+p{
+    display: none;
+    font-size: 16px;
+    color: red;
+}
